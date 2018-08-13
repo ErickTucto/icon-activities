@@ -1,0 +1,8 @@
+{
+  "uuid": "icon-activities@io.github.ericktucto",
+  "name": "Icon Activities",
+  "description": "Chagne Activities Text to Icon",
+  "url": "https://ericktucto.github.io/icon-activities",
+  "shell-version": [ "3.26", "3.28" ],
+  "version": 1.0
+}
