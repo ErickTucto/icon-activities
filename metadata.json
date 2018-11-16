@@ -1,8 +1,9 @@
 {
-  "uuid": "icon-activities@io.github.ericktucto",
+  "uuid": "icon-activities@com.ericktucto",
   "name": "Icon Activities",
   "description": "Chagne Activities Text to Icon",
   "url": "https://ericktucto.github.io/icon-activities",
   "shell-version": [ "3.26", "3.28" ],
+  "settings-schema": "com.ericktucto.icon-activities",
   "version": 1.0
 }
