@@ -1,16 +1,14 @@
-const Me = imports.misc.extensionUtils.getCurrentExtension();
-const App = Me.imports.iconActivities;
+const { require } = imports.misc.extensionUtils.getCurrentExtension().imports.require
+const Extension = require('./src/index');
 
-let app;
-
-function init(){
+function init() {
+  Extension.init()
 }
 
-function enable(){
-    app = new App.IconActivities();
+function enable() {
+  Extension.enable()
 }
 
 function disable() {
-    app.destroy();
-    app = undefined;
+  Extension.disable()
 }
